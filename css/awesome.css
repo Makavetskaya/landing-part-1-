@@ -19,7 +19,7 @@
   margin-bottom: 67px;
   font-family: 'Open Sans', sans-serif;
 }
-.circle {
+.awesome-item__circle {
   width: 70px;
   height: 70px;
   border: 1px solid #d98943;
@@ -28,20 +28,23 @@
   margin-bottom: 30px;
 }
 img {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 17px;
 }
 .awesome-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin: 0 -15px;
 }
 .awesome-row__item {
   width: 350px;
+  margin: 0 15px;
 }
 .awesome-row__title {
   text-align: center;
-  font-weight: bold;
   font-size: 20px;
   margin-bottom: 16px;
   font-family: 'Open Sans', sans-serif;
