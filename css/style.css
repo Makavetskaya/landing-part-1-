@@ -1,9 +1,11 @@
 @import url(../css/awesome.css);
-
+@import url(../css/pricing.css);
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   box-sizing: border-box;
+  text-decoration: none;
 }
 section {
   padding: 100px 0;
