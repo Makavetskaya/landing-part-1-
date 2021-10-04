@@ -8,6 +8,8 @@
 @import url('../css/header.css');
 @import url('../css/social.css');
 @import url('../css/footer.css');
+@import url('../css/firstscreen.css');
+@import url('../css/contact.css');
 
 * {
   margin: 0;
@@ -17,12 +19,32 @@
   list-style-type: none;
   text-decoration: none;
 }
-section {
-  /* display: block; */
-  /* padding: 100px 0; */
-}
+
 .container {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.download {
+  position: relative;
+  padding: 11px 0;
+  width: 135px;
+  border: 1px solid #ffffff;
+}
+
+.download:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  border: 1px solid #ec7979;
+  background: #ec7979;
+}
+
+.link {
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
 }

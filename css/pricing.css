@@ -12,6 +12,10 @@
   width: 340px;
   margin: 0 15px;
 }
+.pricing-item:hover {
+  transform: translateY(-20px);
+  transition: all 0.8s ease;
+}
 
 .pricing-item__basic {
   background-color: #333333;
@@ -25,7 +29,7 @@
   margin-bottom: 2px;
 }
 .pricing-item__basic:hover {
-  background-color: #d98943;
+  background-color: #ec7979;
 }
 .pricing-item__price {
   background-color: #333333;
@@ -40,10 +44,7 @@
   margin-bottom: 2px;
 }
 .pricing-item__price:hover {
-  background-color: #d98943;
-}
-.pricing-item__price:hover {
-  transform: scale(1.2);
+  background-color: #ec7979;
 }
 .pricing-item__life {
   background-color: #333333;
@@ -57,7 +58,7 @@
   margin-bottom: 2px;
 }
 .pricing-item__life:hover {
-  background-color: #d98943;
+  background-color: #ec7979;
 }
 .pricing-item__list {
   background-color: #ffffff;
@@ -72,7 +73,7 @@
 
 .pricing-item__list:hover {
   color: #ffffff;
-  background-color: #d98943;
+  background-color: #ec7979;
 }
 .pricing-item__list:last-child {
   margin-bottom: 0;

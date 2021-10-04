@@ -13,9 +13,10 @@
   display: flex;
   flex-direction: column;
   margin: 0 15px;
+  transition: all 0.8s ease;
 }
 .customers-row__item:hover {
-  transform: scale(1.3);
+  /* transform: scale(1.3); */
 }
 .customers-row__text {
   position: relative;
@@ -27,9 +28,11 @@
   display: flex;
   padding: 9px 22px 6px 23px;
   margin-bottom: 22px;
+  transition: all 0.8s ease;
 }
 .customers-row__text:hover {
-  background-color: #d9894b;
+  background-color: #ec7979;
+  transform: scale(1.1);
 }
 .customers-row__text p {
   color: #86878b;
@@ -50,8 +53,15 @@
   border-left: 17px solid transparent;
   border-right: 17px solid transparent;
   top: 100%;
+  display: inline-block;
 }
-.costomers-row__manager {
+.customers-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.customers-row__manager {
   width: 212px;
   display: flex;
   justify-content: space-between;
