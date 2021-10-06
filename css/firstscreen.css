@@ -26,12 +26,15 @@
   align-items: flex-start;
   margin: 0 -15px;
 }
-.firstscreen-item_description {
+.firstscreen__item-description {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 544px;
   margin: 0 15px;
+}
+.firstscreen__logo-link {
+  margin-bottom: 32px;
 }
 .firstscreen-logo {
   position: relative;
@@ -40,12 +43,10 @@
   font-size: 60px;
   font-weight: 400;
   font-family: 'Raleway', sans-serif;
-  /* margin-bottom: 32px; */
 }
 .firstscreen-logo::after {
   content: 'it';
   color: #ec7979;
-  /* margin-bottom: 32px; */
 }
 
 .title-white__firstscreen {
@@ -53,7 +54,7 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
-  margin-top: 32px;
+  margin-bottom: 39px;
 }
 .title-white__firstscreen::after {
   content: '';
@@ -61,7 +62,7 @@
   width: 64px;
   height: 1px;
   background: #ffffff;
-  margin: 32px 0 39px;
+  margin: 45px 0 0;
 }
 .title-text__firstscreen {
   font-size: 16px;
@@ -71,24 +72,23 @@
   width: 282px;
   font-family: 'Open Sans', sans-serif;
 }
-.download .firstscreen-download {
-  margin: 39px 0 0 0;
-}
+
 .firstscreen-form {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   background: #ffffff;
   border-radius: 8px;
   width: 370px;
   margin: 0 15px;
+  overflow: hidden;
 }
 .firstscreen__form-content {
-  padding: 10px 59px 60px;
+  padding: 10px 59px 61px;
 }
 .firstscreen__form-title {
   font-weight: 700;
   font-size: 20px;
-  text-align: center;
   text-align: center;
   color: #333333;
   margin-bottom: 60px;
@@ -100,10 +100,13 @@
 .firstscreen-form__item {
   margin-bottom: 19px;
 }
+.firstscreen-form__item:last-child {
+  margin-bottom: 0px;
+}
 .label {
   display: block;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   color: #bdbdbd;
 }
 input[name='user_name'],
@@ -113,13 +116,19 @@ input[name='user_password'] {
   border: none;
   width: 100%;
   outline: 0;
-  padding: 0 18px;
-  height: 16px;
+  padding: 5px 15px;
+  height: 19px;
   background-color: #ffffff;
   border-bottom: 1px solid #bdbdbd;
-  color: #bdbdbd;
+  color: #ec7979;
 }
-.button-firstscreen {
+input[name='user_name']:focus,
+input[name='user_email']:focus,
+input[name='user_password']:focus {
+  border-bottom: 1px solid #ec7979;
+}
+.button.firstscreen__button {
   width: 100%;
-  border: none;
+  margin: 0;
+  padding: 21px 0;
 }
