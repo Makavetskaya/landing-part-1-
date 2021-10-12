@@ -35,12 +35,21 @@
   margin: auto;
   margin-bottom: 30px;
 }
+.awesome-item__circle:hover {
+  transform: rotate(180deg);
+}
 .icons {
   font-size: 30px;
   justify-content: center;
   align-items: center;
   margin: auto;
   color: #d98943;
+}
+.icons:hover {
+  /* transform: rotate(360deg); */
+  /* transform: scale(1.5); */
+  /* transform: rotate(180deg); */
+  transform: all 0.3s ease;
 }
 .awesome-row {
   display: flex;

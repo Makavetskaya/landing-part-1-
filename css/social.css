@@ -1,13 +1,13 @@
 .social {
   background-color: #f8efef;
-  padding: 80px 0 0 0;
+  padding: 14px 0 17px 0;
 }
 .social-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 14px 0 17px 0;
+  /* padding: 14px 0 17px 0; */
 }
 .social-media {
   width: 365px;
@@ -30,6 +30,7 @@
   width: 684px;
   display: flex;
   justify-content: space-between;
+  transition: all 0.8s ease;
 }
 .social-list__link {
   color: #606364;
@@ -37,7 +38,6 @@
 }
 .social-list__item:hover {
   transform: scale(1.2);
-  /* transform: skew(20deg); */
 }
 .fa-facebook-f:hover {
   color: #3b5998;

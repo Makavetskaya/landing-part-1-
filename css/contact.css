@@ -1,0 +1,41 @@
+.contact {
+  padding: 80px 0 44px 0;
+}
+.contact__form {
+  margin: 91px -15px 0;
+}
+
+.contact__form-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.contact__form-item {
+  width: 478px;
+  margin: 0 15px;
+}
+.contact__form-item {
+  margin-bottom: 32px;
+}
+input[id='name_contact'],
+input[id='mail_contact'],
+input[id='password_conatct'] {
+  font-size: 18px;
+  height: 32px;
+}
+input[name='user_message'] {
+}
+.contact__form-item textarea {
+  border: none;
+}
+.button-contact {
+  display: block;
+  border: none;
+  margin: 69px auto 0;
+  padding: 11px 0;
+  width: 166px;
+  background: #ec7979;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+}
