@@ -41,7 +41,7 @@
     <section class="firstscreen">
       <div class="container">
         <div class="firstscreen-row">
-          <div class="firstscreen-item_description">
+          <div class="firstscreen__item-description">
             <a href="#" class="firstscreen__logo-link">
               <span class="firstscreen-logo">ax</span>
             </a>
@@ -57,7 +57,7 @@
               <a href="#" class="link">Download</a>
             </div>
           </div>
-          <form action="" class="firstscreen-form">
+          <form action class="firstscreen-form">
             <div class="firstscreen__form-content">
               <h3 class="firstscreen__form-title">
                 Try Your <span>Free</span> Trial Today
@@ -73,14 +73,14 @@
               <div class="firstscreen-form__item">
                 <label class="label" for="password">Password</label>
                 <input
-                  type="text"
+                  type="password"
                   id="password"
                   name="user_password"
                   required
                 />
               </div>
-              <button class="button-firstscreen">Get started</button>
             </div>
+            <button class="button firstscreen__button">Get started</button>
           </form>
         </div>
       </div>
@@ -133,6 +133,88 @@
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab">
+      <div class="container">
+        <div class="tabs">
+          <nav class="tabs__items">
+            <a href="#tab_01" class="tabs__item">Tab 1</a
+            ><a href="#tab_02" class="tabs__item">Tab 2</a>
+            <a href="tab_03#" class="tabs__item">Tab 3</a>
+          </nav>
+          <div class="tabs__body">
+            <div id="tab_01" class="tabs__block">
+              <div class="tabs-cotent_left">
+                <h3 class="tabs__title">
+                  Tabs with soft transitioning effect.
+                </h3>
+                <div class="tabs__text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo. Proin sodales
+                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Aenean euismod bibendum laoreet.
+                  </p>
+                </div>
+                <div class="download tabs__download">
+                  <a href="#" class="link">Download</a>
+                </div>
+              </div>
+              <div class="tabs-content_right">
+                <img class="tabs__img" src="./img/tab.png" alt="tab" />
+              </div>
+            </div>
+            <div id="tab_02" class="tabs__block">
+              <div class="tabs-cotent_left">
+                <h3 class="tabs__title">
+                  Tabs with soft transitioning effect.
+                </h3>
+                <div class="tabs__text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo. Proin sodales
+                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Aenean euismod bibendum laoreet.
+                  </p>
+                </div>
+                <div class="download tabs__download">
+                  <a href="#" class="link">Download</a>
+                </div>
+              </div>
+              <div class="tabs-content_right">
+                <img class="tabs__img" src="./img/tab.png" alt="tab" />
+              </div>
+            </div>
+            <div id="tab_01" class="tabs__block">
+              <div class="tabs-cotent_left">
+                <h3 class="tabs__title">
+                  Tabs with soft transitioning effect.
+                </h3>
+                <div class="tabs__text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
+                    amet lacus accumsan et viverra justo commodo. Proin sodales
+                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                    parturient montes. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Aenean euismod bibendum laoreet.
+                  </p>
+                </div>
+                <div class="download tabs__download">
+                  <a href="#" class="link">Download</a>
+                </div>
+              </div>
+              <div class="tabs-content_right">
+                <img class="tabs__img" src="./img/tab.png" alt="tab" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -332,36 +414,49 @@
         <div class="title-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <form action="" class="contact-form">
+        <form action="#" class="contact-form">
           <div class="contact__form-content">
-            <div class="contact__form-item">
-              <label class="label" for="name">Name </label>
-              <input type="text" id="name_contact" name="user_name" required />
+            <div class="contact__form-block">
+              <div class="contact__form-item">
+                <label class="label" for="name_contact">Name</label>
+                <input
+                  type="text"
+                  id="name_contact"
+                  name="user_name"
+                  required
+                />
+              </div>
+              <div class="contact__form-item">
+                <label class="label" for="mail_contact">Email</label>
+                <input
+                  type="email"
+                  id="mail_contact"
+                  name="user_email"
+                  required
+                />
+              </div>
+              <div class="contact__form-item">
+                <label class="label" for="password_conatct">Password</label>
+                <input
+                  type="password"
+                  id="password_conatct"
+                  name="user_password"
+                  required
+                />
+              </div>
             </div>
-            <div class="contact__form-item">
-              <label class="label" for="email">Email</label>
-              <input
-                type="text"
-                id="email-contact"
-                name="user_email"
-                required
-              />
-            </div>
-            <div class="contact__form-item">
-              <label class="label" for="password">Password</label>
-              <input
-                type="text"
-                id="password-contact"
-                name="user_password"
-                required
-              />
-            </div>
-            <div class="contact__form-item">
+            <div class="contact__form-block">
               <label class="label" for="textarea">Message</label>
-              <input type="text" id="message" name="user_message" required />
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols=""
+                rows=""
+                required
+              ></textarea>
             </div>
-            <button class="button-contact">Sed message</button>
           </div>
+          <button class="button">Sed message</button>
         </form>
       </div>
     </section>
