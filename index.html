@@ -137,83 +137,96 @@
         </div>
       </div>
     </section>
-    <section class="tab">
+    <section class="tabs">
       <div class="container">
-        <div class="tabs">
-          <nav class="tabs__items">
-            <a href="#tab_01" class="tabs__item">Tab 1</a
-            ><a href="#tab_02" class="tabs__item">Tab 2</a>
-            <a href="tab_03#" class="tabs__item">Tab 3</a>
-          </nav>
-          <div class="tabs__body">
-            <div id="tab_01" class="tabs__block">
-              <div class="tabs-cotent_left">
-                <h3 class="tabs__title">
-                  Tabs with soft transitioning effect.
-                </h3>
-                <div class="tabs__text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
-                    amet lacus accumsan et viverra justo commodo. Proin sodales
-                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
-                    parturient montes. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Aenean euismod bibendum laoreet.
-                  </p>
-                </div>
-                <div class="download tabs__download">
-                  <a href="#" class="link">Download</a>
-                </div>
-              </div>
-              <div class="tabs-content_right">
-                <img class="tabs__img" src="./img/tab.png" alt="tab" />
-              </div>
+        <div class="tabs-row">
+          <div class="tabs__item">
+            <div class="tabs__tab active" data-tab-name="tab-1">Tab 1</div>
+            <div class="tabs__tab" data-tab-name="tab-2">Tab 2</div>
+            <div class="tabs__tab" data-tab-name="tab-3">Tab 3</div>
+          </div>
+          <div class="tabs__content tab-1 active">
+            <div class="tabs__description">
+              <h2 class="tabs__title">Tabs with soft transitioning effect.</h2>
+              <p class="tabs__text">
+                <span class="tabs__text-span"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod</span
+                >
+                <span class="tabs__text-span"
+                  >bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                  et viverra</span
+                >
+                <span class="tabs__text-span"
+                  >justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                  natoque penatibus et magnis dis parturient montes.</span
+                >
+                <span class="tabs__text-span">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod</span
+                >
+                <span class="tabs__text-span"> bibendum laoreet.</span>
+              </p>
+              <button class="tabs__button">Download</button>
             </div>
-            <div id="tab_02" class="tabs__block">
-              <div class="tabs-cotent_left">
-                <h3 class="tabs__title">
-                  Tabs with soft transitioning effect.
-                </h3>
-                <div class="tabs__text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
-                    amet lacus accumsan et viverra justo commodo. Proin sodales
-                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
-                    parturient montes. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Aenean euismod bibendum laoreet.
-                  </p>
-                </div>
-                <div class="download tabs__download">
-                  <a href="#" class="link">Download</a>
-                </div>
-              </div>
-              <div class="tabs-content_right">
-                <img class="tabs__img" src="./img/tab.png" alt="tab" />
-              </div>
+            <div class="tabs__img">
+              <img src="./img/tab.png" alt="tab-1" />
             </div>
-            <div id="tab_01" class="tabs__block">
-              <div class="tabs-cotent_left">
-                <h3 class="tabs__title">
-                  Tabs with soft transitioning effect.
-                </h3>
-                <div class="tabs__text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenean euismod bibendum laoreet. Proin gravida dolor sit
-                    amet lacus accumsan et viverra justo commodo. Proin sodales
-                    pulvinar tempor. Cum sociis natoque penatibus et magnis dis
-                    parturient montes. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Aenean euismod bibendum laoreet.
-                  </p>
-                </div>
-                <div class="download tabs__download">
-                  <a href="#" class="link">Download</a>
-                </div>
-              </div>
-              <div class="tabs-content_right">
-                <img class="tabs__img" src="./img/tab.png" alt="tab" />
-              </div>
+          </div>
+          <div class="tabs__content tab-2">
+            <div class="tabs__description">
+              <h2 class="tabs__title">Tabs with soft transitioning effect.</h2>
+              <p class="tabs__text">
+                <span class="tabs__text-span"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod</span
+                >
+                <span class="tabs__text-span"
+                  >bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                  et viverra</span
+                >
+                <span class="tabs__text-span"
+                  >justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                  natoque penatibus et magnis dis parturient montes.</span
+                >
+                <span class="tabs__text-span">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod</span
+                >
+                <span class="tabs__text-span"> bibendum laoreet.</span>
+              </p>
+              <button class="tabs__button">Download</button>
+            </div>
+            <div class="tabs__img">
+              <img src="./img/tab.png" alt="tab-1" />
+            </div>
+          </div>
+          <div class="tabs__content tab-3">
+            <div class="tabs__description">
+              <h2 class="tabs__title">Tabs with soft transitioning effect.</h2>
+              <p class="tabs__text">
+                <span class="tabs__text-span"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod</span
+                >
+                <span class="tabs__text-span"
+                  >bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                  et viverra</span
+                >
+                <span class="tabs__text-span"
+                  >justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                  natoque penatibus et magnis dis parturient montes.</span
+                >
+                <span class="tabs__text-span">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod</span
+                >
+                <span class="tabs__text-span"> bibendum laoreet.</span>
+              </p>
+              <button class="tabs__button">Download</button>
+            </div>
+            <div class="tabs__img">
+              <img src="./img/tab.png" alt="tab-1" />
             </div>
           </div>
         </div>
