@@ -1,3 +1,6 @@
+.awesome {
+  padding: 100px 0 89px 0;
+}
 .awesome-title {
   text-transform: uppercase;
   font-size: 36px;
@@ -7,13 +10,13 @@
   font-weight: 400;
   font-family: 'Raleway', sans-serif;
 }
-.awesome-title::before {
+.awesome-title::after {
   content: '';
-  width: 64px;
+  display: block;
   height: 2px;
+  width: 64px;
   background-color: #d98943;
-  display: inline-block;
-  vertical-align: middle;
+  margin: 25px auto 0;
 }
 
 .awesome-text {
@@ -24,6 +27,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 .awesome-item__circle {
+  display: flex;
   width: 70px;
   height: 70px;
   border: 1px solid #d98943;
@@ -31,12 +35,12 @@
   margin: auto;
   margin-bottom: 30px;
 }
-img {
-  display: flex;
+.icons {
+  font-size: 30px;
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 17px;
+  color: #d98943;
 }
 .awesome-row {
   display: flex;
@@ -47,6 +51,7 @@ img {
   width: 350px;
   margin: 0 15px;
 }
+
 .awesome-row__title {
   text-align: center;
   font-size: 20px;
