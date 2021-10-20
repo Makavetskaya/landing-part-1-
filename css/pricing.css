@@ -11,6 +11,7 @@
 .pricing-item {
   width: 340px;
   margin: 0 15px;
+  transition: 0.5s;
 }
 .pricing-item:hover {
   transform: translateY(-20px);
@@ -22,7 +23,7 @@
   width: 340px;
   line-height: 50px;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #ffffff;
@@ -36,7 +37,7 @@
   width: 100%;
   line-height: 100px;
   text-align: center;
-  font-size: 35px;
+  font-size: 2.1875rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: #ffffff;
@@ -51,7 +52,7 @@
   width: 340px;
   line-height: 40px;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
   margin: auto;
@@ -66,7 +67,7 @@
   color: #86878b;
   line-height: 40px;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 2px;
 }

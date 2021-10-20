@@ -12,23 +12,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 -15px;
+  margin: 0 15px;
 }
 
 .header-title {
   position: relative;
   text-transform: uppercase;
   color: #fff;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
   font-family: 'Raleway', sans-serif;
 }
 .header-title::after {
   content: 'it';
   color: #ec7979;
-}
-.title-logo:hover {
-  transform: rotate(45deg);
 }
 
 .title-logо::after {
@@ -53,13 +50,14 @@
 }
 .menu-list__item {
   margin-right: 48px;
+  transition: 0.5s;
 }
 .menu-list__item:last-child {
   margin-right: 0;
 }
 .menu-list__link {
   color: rgb(255, 255, 255, 0.7);
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   transition: all 0.8s ease;
@@ -71,14 +69,3 @@
 .menu-list__link:hover {
   color: #ec7979;
 }
-/* .menu-list__link::after {
-  position: absolute;
-  content: '';
-  top: 100%;
-  left: 0;
-  height: 1px;
-  width: 0;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.7);
-  transition: all 0.1s ease-in-out;
-  opacity: 1;
-} */

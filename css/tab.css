@@ -13,7 +13,7 @@
 }
 .tabs__tab {
   width: 184px;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 35px;
   text-transform: uppercase;
   border-radius: 7px 7px 0 0;
@@ -22,7 +22,7 @@
 .tabs__tab.active {
   font-weight: 700;
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-transform: uppercase;
   border-radius: 7px 7px 0 0;
   border-top: 1px solid #c6cbcd;
@@ -51,14 +51,14 @@
 }
 .tabs__title {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #000000;
   margin-bottom: 73px;
 }
 .tabs__text-span {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 21px;
 }
 .tabs__text-span {

@@ -20,7 +20,7 @@
 }
 
 .awesome-text {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   color: #86878b;
   margin-bottom: 67px;
@@ -34,6 +34,7 @@
   border-radius: 50%;
   margin: auto;
   margin-bottom: 30px;
+  transition: 0.5s;
 }
 .awesome-item__circle:hover {
   transform: rotate(180deg);
@@ -46,9 +47,6 @@
   color: #d98943;
 }
 .icons:hover {
-  /* transform: rotate(360deg); */
-  /* transform: scale(1.5); */
-  /* transform: rotate(180deg); */
   transform: all 0.3s ease;
 }
 .awesome-row {
