@@ -1,1 +1,1 @@
-The project at the "TeachMeSkills" courses.
+# The project at the "TeachMeSkills" courses of HTML/CSS
